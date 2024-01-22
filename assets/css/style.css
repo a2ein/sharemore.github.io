@@ -4,7 +4,47 @@
     margin: 0;
     padding: 0;
 box-sizing: border-box;
-background: #020617;
+/*background: #020617;*/
 
+
+}
+/*common*/
+.subheader{
+
+    font-family: Lexend Deca;
+font-size: 16px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: center;
+color:  #9CA3AF;
+;
+}
+
+.header{
+    color: #FFFFFF;
+
+
+    font-family: Lexend Deca;
+font-size: 40px;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+
+
+.ending{
+    background: #020617;
+  
+    text-align: center;
+    
+
+    width: Hug (685px);
+height: Hug (320px);
+padding: 56px, 0px, 56px, 0px;
+gap: 56px;
 
 }
