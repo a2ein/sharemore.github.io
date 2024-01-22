@@ -100,10 +100,7 @@ text-transform: uppercase;
    .header{
     color: #F3F4F6 !important  ;                                                           ;
 font-family: "Lexend Deca";
-font-size: 42px;
-font-style: normal;
-font-weight: 700;
-line-height: 64px; /* 152.381% */
+ /* 152.381% */
 }
 
 }
