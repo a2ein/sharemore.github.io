@@ -67,7 +67,7 @@ text-transform: uppercase;
 
 }
 /* hero_section */
-<<<<<<< HEAD
+
 .hero{
     display: flex;
     padding: 96px 165px;
@@ -78,7 +78,6 @@ text-transform: uppercase;
     background: #111827;
 
 }
-=======
 
 .hero-super{
 margin-top: -10rem;
@@ -87,15 +86,6 @@ background: #111827  no-repeat ;
 background-size: cover;
 }
 
-.hero {
-margin: 165px 96px 165px 96px;
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-gap: 199px;
->>>>>>> f54875f20877550d800bfc1f2e99bf20b6f09ffd
-
-}
 
 
 
