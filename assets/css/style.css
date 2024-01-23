@@ -135,6 +135,12 @@ line-height: 27px; /* 168.75% */
 width: 123px;
 
 }
+.firstimage{
+    width: 427px;
+    height: 427px;
+    border-radius: 24px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
 
 
 
