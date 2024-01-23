@@ -68,12 +68,14 @@ text-transform: uppercase;
 }
 /* hero_section */
 .hero{
-margin: 165px 96px 165px 96px;
-display: flex;
-flex-direction: row;
-justify-content: space-around;
+    display: flex;
+    padding: 96px 165px;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    background: #111827;
 
-gap: 199px;
 }
 
 
