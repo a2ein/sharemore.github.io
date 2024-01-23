@@ -52,13 +52,10 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
-a{
-    color: #9CA3AF !important;
-font-family: "Lexend Deca"!important;
-font-size: 16px;
-font-style: normal;
-font-weight: 400 !important;
-line-height: normal;    text-decoration: none !important;
+.navul a{
+    color: #9CA3AF ;
+
+   text-decoration: none ;
 }
 .navul  {
 margin-left: 1rem;
@@ -86,23 +83,6 @@ background: #111827  no-repeat ;
 background-size: cover;
 }
 
-.btn-warning{
-    color: #000;
-font-family: "Lexend Deca";
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 27px; /* 168.75% */
-
-}
-.text-warning{
-    color: #EAB308;
-font-family: "Lexend Deca";
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 27px; /* 168.75% */
-}
 
 
 
