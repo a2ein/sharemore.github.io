@@ -67,19 +67,6 @@ text-transform: uppercase;
 
 }
 /* hero_section */
-<<<<<<< HEAD
-.hero{
-    display: flex;
-    padding: 96px 165px;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 8px;
-    align-self: stretch;
-    background: #111827;
-
-}
-=======
-
 .hero-super{
 margin-top: -10rem;
     padding: 2rem 1rem .5rem 1rem;
@@ -93,7 +80,6 @@ display: flex;
 flex-direction: row;
 justify-content: space-around;
 gap: 199px;
->>>>>>> f54875f20877550d800bfc1f2e99bf20b6f09ffd
 
 }
 
