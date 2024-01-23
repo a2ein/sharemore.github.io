@@ -91,25 +91,22 @@ text-transform: uppercase;
 
 
 }
-
+/* hero_section */
 .hero{
 
-
-   background:  #111827;
-
-   .header{
-    color: #F3F4F6 !important  ;                                                           ;
-font-family: "Lexend Deca";
-
-}
-
-
+display: flex;
+flex-direction: row;
+justify-content: space-around;
 
 
 }
 
 
 
+
+
+
+/* footer */
 .ending{
     background: #020617;
   
