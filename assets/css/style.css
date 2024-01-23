@@ -126,7 +126,7 @@ line-height: 27px; /* 168.75% */
     /*168.75%*/border-radius: 4px;
     background: #FACC15;
     display: flex;
-    padding: 8px 12px;
+    padding: 8px 20px;
     align-items: flex-start;
     gap: 10px;
     -webkit-border-radius:4px;
