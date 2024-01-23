@@ -67,16 +67,16 @@ text-transform: uppercase;
 
 .hero{
     display: flex;
-    padding: 96px 165px;
+    padding: 96px 165px 96px 165px;
     flex-direction: row;
     align-items: flex-start;
-    gap: 8px;
+    gap: 12px;
     align-self: stretch;
     background: #111827;
 
 }
 
-.hero-super{
+.hero-super{ 
 margin-top: -10rem;
     padding: 2rem 1rem .5rem 1rem;
 background: #111827  no-repeat ;
