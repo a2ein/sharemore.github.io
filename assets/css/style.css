@@ -67,15 +67,22 @@ text-transform: uppercase;
 
 }
 /* hero_section */
-.hero{
+
+.hero-super{
+margin-top: -10rem;
+    padding: 2rem 1rem .5rem 1rem;
+background: #111827  no-repeat ;
+background-size: cover;
+}
+
+.hero {
 margin: 165px 96px 165px 96px;
 display: flex;
 flex-direction: row;
 justify-content: space-around;
-
 gap: 199px;
-}
 
+}
 
 
 
