@@ -70,10 +70,10 @@ text-transform: uppercase;
     padding: 96px 165px 96px 165px;
     flex-direction: row;
     align-items: flex-start;
-    gap: 12px;
+   gap: 12px;
     align-self: stretch;
     background: #111827;
-
+justify-content: space-between;
 }
 
 .hero-super{ 
@@ -87,6 +87,15 @@ background-size: cover;
 gap: 24px;
 flex-direction: column;
     display: flex;
+/* adjust margintop */
+    margin-top: 4rem;
+}
+
+/* adjust if you need */
+.container-right{
+margin-left: 5rem;
+
+
 }
 .greetings{
     color: #EAB308;
