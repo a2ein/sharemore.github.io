@@ -152,7 +152,67 @@ width: 123px;
 background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
+.about-container{
+  
+flex-direction: row-reverse;
+    
+/* adjust margintop */
+    margin-top: 4rem;
+    display: flex;
+padding: 96px 0px;
+align-items: center;
+gap: 89px;
+}
 
+.about-me .about{
+    color: #F3F4F6;
+font-family: "Lexend Deca";
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: 64px; /* 152.381% */
+}
+.about-me .me{
+    color: #EAB308;
+font-family: "Lexend Deca";
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: 64px;
+}
+
+.about-description{
+    color: #6B7280;
+font-family: "Lexend Deca";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; /* 168.75% */
+}
+
+.about-button{
+    color: #000;
+    font-family: "Arvo";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /*168.75%*/border-radius: 4px;
+    background: #EAB308;
+    display: flex;
+    padding: 16px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    -ms-border-radius:4px;
+    -o-border-radius:4px;
+width: 123px;
+}
+
+.container-left{
+    margin-left: 5rem;
+}
 
 /* footer */
 .ending{
