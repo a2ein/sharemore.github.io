@@ -68,12 +68,12 @@ text-transform: uppercase;
 }
 /* hero_section */
 .hero{
-
+margin: 165px 96px 165px 96px;
 display: flex;
 flex-direction: row;
 justify-content: space-around;
 
-
+gap: 199px;
 }
 
 
