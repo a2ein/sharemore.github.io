@@ -83,7 +83,11 @@ background: #111827  no-repeat ;
 background-size: cover;
 }
 
-
+.container{
+gap: 24px;
+flex-direction: column;
+    display: flex;
+}
 
 
 
