@@ -145,7 +145,7 @@ line-height: 27px; /* 168.75% */
 width: 123px;
 
 }
-.firstimage{
+.imgright{
     width: 427px;
     height: 427px;
     border-radius: 24px;
@@ -154,7 +154,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 
 .about-container{
   
-flex-direction: row-reverse;
+flex-direction: row;
     
 /* adjust margintop */
     margin-top: 4rem;
@@ -212,6 +212,13 @@ width: 123px;
 
 .container-left{
     margin-left: 5rem;
+}
+.imgleft{
+    width: 475px;
+height: 475px;
+flex-shrink: 0;
+border-radius: 24px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
 /* footer */
