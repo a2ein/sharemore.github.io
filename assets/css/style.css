@@ -220,6 +220,32 @@ flex-shrink: 0;
 border-radius: 24px;
 background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
+/*services*/
+.services{
+padding: 96px 165px 96px 165px;
+gap: 2rem;
+    background: #111827;
+}
+.services-box-parent{
+align-content: center;
+
+display: flex; gap: 8rem;
+flex-direction: row;
+.service-box{
+text-align: center; align-items: center;
+gap: 3rem;
+display: flex;
+padding: 25px;
+flex-direction: column;
+
+gap: 8px;
+    border-radius: 12px;
+background: #020617;
+}
+
+}
+
+
 
 /* footer */
 .ending{
