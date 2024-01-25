@@ -154,7 +154,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 
 .about-container{
   
-flex-direction: row;
+flex-direction: column;
     
 /* adjust margintop */
     margin-top: 4rem;
@@ -181,7 +181,7 @@ font-weight: 700;
 line-height: 64px;
 }
 
-.about-description{
+.aboutme-content{
     color: #6B7280;
 font-family: "Lexend Deca";
 font-size: 16px;
@@ -214,6 +214,8 @@ width: 123px;
     margin-left: 5rem;
 }
 .imgleft{
+    display: flex;
+    flex-direction: row-reverse;
     width: 475px;
 height: 475px;
 flex-shrink: 0;
