@@ -237,12 +237,9 @@ position: absolute;
 .services{
 padding: 96px 165px 96px 165px;
 gap: 2rem;
- background: #111827;
- 
- 
-
-
-
+    background: #111827;
+    align-items: flex-start; /* Align flex items to the start of the cross axis */
+    text-align: left; /* Align text content to the left */
 }
 .my-service .my{
     color: #F3F4F6;
