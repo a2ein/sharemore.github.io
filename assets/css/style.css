@@ -151,17 +151,16 @@ width: 123px;
     border-radius: 24px;
 background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
+/* aboutme */
 
+.aboutme{
+display: flex;flex-direction: row-reverse;
+justify-content: space-around;
+    background: #020617; padding: 96px 65px;
+}
 .about-container{
   
-flex-direction: column;
-    
-/* adjust margintop */
-    margin-top: 4rem;
-    display: flex;
-padding: 96px 0px;
-align-items: center;
-gap: 89px;
+display: flex;flex-direction: column; gap: 2rem;
 }
 
 .about-me .about{
@@ -211,16 +210,28 @@ width: 123px;
 }
 
 .container-left{
-    margin-left: 5rem;
+
+.imgleft{ 
+.ring{
+
+
+
 }
-.imgleft{
-    display: flex;
-    flex-direction: row-reverse;
-    width: 475px;
-height: 475px;
-flex-shrink: 0;
-border-radius: 24px;
-background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+.man{
+position: absolute;
+    margin: -3rem -43rem;
+}
+
+
+
+}
+
+
+
+
+
+
 }
 /*services*/
 .services{
