@@ -227,6 +227,24 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 padding: 96px 165px 96px 165px;
 gap: 2rem;
     background: #111827;
+    align-items: flex-start; /* Align flex items to the start of the cross axis */
+    text-align: left; /* Align text content to the left */
+}
+.my-service .my{
+    color: #F3F4F6;
+font-family: "Lexend Deca";
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: 64px; /* 152.381% */
+}
+.my-service .service{
+    color: #EAB308;
+font-family: "Lexend Deca";
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: 64px;
 }
 .services-box-parent{
 align-content: center;
@@ -245,6 +263,16 @@ gap: 8px;
 background: #020617;
 }
 
+}
+
+.special{
+    color: #F3F4F6;
+text-align: center;
+font-family: "Lexend Deca";
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: 41px; /* 157.692% */
 }
 
 
