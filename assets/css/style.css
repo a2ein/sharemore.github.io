@@ -238,8 +238,7 @@ position: absolute;
 padding: 96px 165px 96px 165px;
 gap: 2rem;
     background: #111827;
-    align-items: flex-start; /* Align flex items to the start of the cross axis */
-    text-align: left; /* Align text content to the left */
+    
 }
 .my-service .my{
     color: #F3F4F6;
@@ -286,7 +285,24 @@ font-weight: 700;
 line-height: 41px; /* 157.692% */
 }
 
+.experiences{
+    padding: 96px 165px 96px 165px;
+    gap: 2rem;
+        background: #111827;
 
+}
+.my-experiences .my
+{
+    color: #F3F4F6;
+font-family: Arvo;
+font-size: 42px;
+
+}
+.my-experiences .experiences{
+    color: #EAB308;
+font-family: Arvo;
+font-size: 42px;
+}
 
 /* footer */
 .ending{
