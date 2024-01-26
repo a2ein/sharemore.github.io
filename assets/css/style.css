@@ -285,10 +285,12 @@ font-weight: 700;
 line-height: 41px; /* 157.692% */
 }
 
-.experiences{
-    padding: 85px 149px 85px 149px;
+.experience{
+     padding: 85px 149px 85px 149px;
 gap: 2rem;
-    background: #111827;
+    background: #111827; 
+
+    
 
 }
 .my-experiences .my
@@ -304,6 +306,24 @@ font-family: Arvo;
 font-size: 42px;
 }
 
+.experience-box-parent{ 
+    align-content: center;
+
+display: flex; gap: 8rem;
+flex-direction: column;
+}
+.experience-box{
+text-align: center; align-items: center;
+gap: 3rem;
+display: flex;
+padding: 25px;
+flex-direction: row;
+
+gap: 8px;
+    border-radius: 12px;
+background: #020617;
+}
+}
 /* footer */
 .ending{
     background: #020617;
