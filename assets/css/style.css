@@ -309,7 +309,7 @@ font-size: 42px;
 .experience-box-parent{ 
     align-content: center;
 
-display: inline-block; gap: 29px;
+display: inline-block; gap: 2.4rem;
 flex-direction: row;
 .experience-box{
     text-align: left; align-items: center;
