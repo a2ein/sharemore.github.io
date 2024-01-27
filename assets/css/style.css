@@ -306,11 +306,11 @@ font-family: Arvo;
 font-size: 42px;
 }
 
-.experience-box-parent{ 
-    align-content: center;
-  display: inline-block; 
-gap: 2.4rem;
-justify-content: space-around; 
+.down-experiences-main{ 
+align-content: center;
+display: flex; flex-direction: row;
+/* adjust it if needed */
+gap: 9rem;
 .experience-box{
     text-align: left; align-items: center;
     gap: 3rem;
