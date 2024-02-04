@@ -340,6 +340,40 @@ font-family: "Lexend Deca";
 font-size: 16px;
 }
 
+
+/* 
+portfolio */
+
+
+.portfolio{
+  
+.port-main{
+    padding: 96px ;
+gap: 4rem;
+
+    display: flex;
+    flex-direction: row;
+}
+.item-port{ 
+gap: 2rem;
+flex-wrap: nowrap;
+flex-direction: row;
+display: flex;
+}
+.port-main-right{
+
+    img{
+
+
+
+        width: 256px; height: 268px;
+    }
+    gap: 2rem;
+
+    display: flex;flex-direction: column;
+}
+
+}
 /* footer */
 .ending{
     background: #020617;
