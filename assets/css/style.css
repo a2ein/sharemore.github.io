@@ -374,6 +374,39 @@ display: flex;
 }
 
 }
+
+
+/* contact */
+
+
+.contact{ gap: 2rem;
+    padding: 96px 165px 0px 165px;
+align-content: center;
+    background: #020617;  /* 
+padding: 96px 165px; */
+.contact-main{
+
+    display: flex ;
+gap: 54rem; adjust
+    flex-direction: row;
+}
+
+.contact-main-left, .contact-main-right{
+
+gap: 2rem;
+    display: flex;
+
+    flex-direction:column ;
+}
+.ending {
+    .img{
+
+    align-self: center ;
+}
+
+    padding: 96px 165px;
+}
+}
 /* footer */
 .ending{
     background: #020617;
