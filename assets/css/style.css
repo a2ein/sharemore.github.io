@@ -149,7 +149,11 @@ width: 123px;
     width: 427px;
     height: 427px;
     border-radius: 24px;
-background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    -webkit-border-radius:24px;
+    -moz-border-radius:24px;
+    -ms-border-radius:24px;
+    -o-border-radius:24px;
 }
 /* aboutme */
 
@@ -262,15 +266,19 @@ align-content: center;
 display: flex; gap: 8rem;
 flex-direction: row;
 .service-box{
-text-align: center; align-items: center;
-gap: 3rem;
-display: flex;
-padding: 25px;
-flex-direction: column;
-
-gap: 8px;
+    text-align: center;
+    align-items: center;
+    gap: 3rem;
+    display: flex;
+    padding: 25px;
+    flex-direction: column;
+    gap: 8px;
     border-radius: 12px;
-background: #020617;
+    background: #020617;
+    -webkit-border-radius:12px;
+    -moz-border-radius:12px;
+    -ms-border-radius:12px;
+    -o-border-radius:12px;
 }
 
 }
@@ -386,8 +394,8 @@ align-content: center;
 padding: 96px 165px; */
 .contact-main{
 
-    display: flex ;
-gap: 54rem; adjust
+    display: flex;
+gap: 54rem; /* adjust */
     flex-direction: row;
 }
 
@@ -399,12 +407,25 @@ gap: 2rem;
     flex-direction:column ;
 }
 .ending {
+    padding: 4rem 165px 0rem 165px;
     .img{
-
+align-content: center;
     align-self: center ;
 }
+.ul{
+gap:2rem; /* adjust */
+align-self: center;
+align-items: center;
+flex-direction: row;
+    display: flex;
+padding: 10rem 165px 5rem 215px;
+}
+   
+}
+ul::has(svg){
+align-items: center;
 
-    padding: 96px 165px;
+    width: 24px; height: 24px;
 }
 }
 /* footer */
