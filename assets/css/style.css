@@ -447,7 +447,17 @@ font-size: 42px;
 gap: 54rem; /* adjust */
     flex-direction: row;
 }
+.item{
 
+
+    color: white;
+}
+.contact-main-left{
+
+text-align: left;
+margin-left: 18rem;
+    display: inline-flex;
+}
 .contact-main-left .oranges{
 color: #EAB308;
 align-items: center;
@@ -456,8 +466,33 @@ font-size: 16px;
 
 }
 }
-.contact-main-left, .contact-main-right{
 
+.contact-main-right{
+
+margin-right: 25rem ;
+
+.name-field{
+height: 56px;
+width: auto;
+
+}
+#input-box{
+
+border: none;
+    background: #1F2937;
+outline: none;
+}
+#input-box::placeholder{
+
+padding: 15px;
+    color: #F3F4F6;
+
+}
+
+
+}
+.contact-main-left, .contact-main-right{
+padding: 2rem; align-self: center;
 gap: 2rem;
     display: flex;
 
@@ -476,7 +511,7 @@ align-self: center;
 align-items: center;
 flex-direction: row;
     display: flex;
-padding: 10rem 165px 5rem 220px;
+padding: 10rem 165px 5rem 390px;
 }
    
 }
@@ -518,4 +553,13 @@ height: Hug (320px);
 padding: 56px, 0px, 56px, 0px;
 gap: 56px;
 
+}
+/* common */
+
+
+section{
+
+
+
+    padding: 2rem;
 }
